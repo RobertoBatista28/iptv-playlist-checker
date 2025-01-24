@@ -31,7 +31,7 @@ Script to check and validate IPTV playlists, including channel verification.
    ```bash
    git clone https://github.com/RobertoBatista28/iptv-playlist-checker.git
    ```
-3. Instale as dependências:
+3. Instale as dependências no local foi clonado o repositório:
    ```bash
    npm install
    ```
@@ -39,9 +39,9 @@ Script to check and validate IPTV playlists, including channel verification.
 ## 🚀 Como Usar
 1. Edite o script para adicionar as URLs das playlists em **const playlistUrls** e adicionar os canais pretendidos obter das playlists em **const desiredChannel**.
 2. Execute o script:
-  ```bash
-  node index.js
-  ```
+     ```bash
+     node index.js
+     ```
 3. Os links válidos serão salvos em um ficheiro chamado **valid_playlists.txt**.
 
 ---
@@ -68,7 +68,7 @@ Script to check and validate IPTV playlists, including channel verification.
    ```bash  
    git clone https://github.com/RobertoBatista28/iptv-playlist-checker.git  
    ```  
-3. Install dependencies:  
+3. Install dependencies in the directory where the repository was cloned:  
    ```bash  
    npm install  
    ```  
